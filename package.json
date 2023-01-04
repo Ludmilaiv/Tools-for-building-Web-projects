@@ -1,0 +1,35 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Д.з. для GeekBrains по курсу Инструменты сборки Web-проектов.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "serve": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludmilaiv/Tools-for-building-Web-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludmilaiv/Tools-for-building-Web-projects/issues"
+  },
+  "homepage": "https://github.com/Ludmilaiv/Tools-for-building-Web-projects#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-bundle-analyzer": "^4.7.0"
+  },
+  "dependencies": {
+    "howler": "^2.2.3",
+    "luxon": "^3.2.0"
+  }
+}

@@ -1,9 +1,10 @@
-import { DateTime } from "./luxon.js";
-import { Howl } from './howler.js';
+import { DateTime } from "luxon";
+import { Howl } from "howler";
 import { diffDates, diffToHtml } from "./diffDates.js";
+import soundFile from './sounds/timer.mp3';
 
 const sound = new Howl({
-  src: ['public/timer.mp3']
+  src: [soundFile]
 });
 
 const timerTick = (timer, firstDateElem, secondDate, outElem, stopBtn) => {
